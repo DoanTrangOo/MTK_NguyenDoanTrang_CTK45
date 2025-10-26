@@ -1,0 +1,34 @@
+HƯỚNG DẪN CÀI ĐẶT VÀ CHẠY ỨNG DỤNG
+
+1. Các bước cài đặt:
+   a. Sử dụng Docker:
+      - Chạy file 'start_docker.bat' để khởi động ứng dụng
+      - Truy cập http://localhost:8000 để sử dụng website
+      - Tài khoản admin mặc định:
+        + Email: admin@dalala.com
+        + Password: admin123
+
+   b. Sử dụng XAMPP (hoặc có thể dùng):
+      - Cài đặt XAMPP
+      - Copy toàn bộ thư mục Source vào C:\xampp\htdocs\dalala
+      - Import file database.sql vào phpMyAdmin
+      - Truy cập http://localhost/dalala để sử dụng website
+
+2. Cấu trúc thư mục:
+   - start_docker.bat: Script khởi động Docker
+   - stop_docker.bat: Script dừng Docker
+   - xampp_setup.bat: Script cài đặt cho XAMPP
+
+3. Thông tin tài khoản mặc định:
+   Admin:
+   - Email: admin@dalala.com
+   - Password: admin123
+
+   User:
+   - Email: 123@gmail.com
+   - Password: 123
+
+5. Liên hệ hỗ trợ:
+   - Email: 2100011@dlu.edu.vn
+   - MSSV: 2100011
+   - Họ và tên: Nguyễn Đoan Trang
